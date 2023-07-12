@@ -5,6 +5,7 @@ public class AllConstruct {
     
 
     public static List<List<String>> add(String target, String[] wordBank) {
+        
         List<List<String>> result = new ArrayList<>();
 
         if (target.equals("")) {
@@ -23,7 +24,6 @@ public class AllConstruct {
                 }
             }
         }
-
         return result;
     }
 }
